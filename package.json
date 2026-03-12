@@ -1,0 +1,32 @@
+{
+  "name": "xclaw",
+  "version": "1.0.0",
+  "description": "基于 Electron 的 OpenClaw 桌面客户端",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "package": "electron-builder --win --config"
+  },
+  "keywords": [
+    "electron",
+    "openclaw",
+    "desktop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^41.0.0",
+    "electron-builder": "^24.9.1",
+    "electron-vite": "^2.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "dependencies": {
+    "@electron-toolkit/utils": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
