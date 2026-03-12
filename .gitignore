@@ -33,5 +33,8 @@ Thumbs.db
 # Temp
 temp/
 
+# OpenClaw 源码 (单独克隆)
+openclaw-src/
+
 # Coding Agent
 .claude/
